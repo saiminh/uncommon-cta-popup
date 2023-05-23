@@ -1,0 +1,19 @@
+.wp-block-create-block-uncommon-cta-popup {
+  position: static;
+  bottom: auto;
+  left: auto;
+  transform: none;
+  transition: transform 0.3s ease-in-out;
+  background-color: var(--wp--preset--color--pigment-orange);
+  padding: .6rem 2rem;
+  border-radius: 1rem;
+
+}
+.uncommon-cta-popup__title {
+  text-align: center;
+  cursor: pointer;
+}
+.uncommon-cta-popup-content {
+  width: var(--popup-width);
+  height: var(--popup-height);
+}

@@ -7,10 +7,12 @@
   background-color: var(--wp--preset--color--pigment-orange);
   padding: .6rem 2rem;
   border-radius: 1rem;
+  max-width: 800px!important;
 }
 .uncommon-cta-popup-content {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  max-width: 800px;
 }
 .uncommon-cta-popup-title {
   text-align: center;
