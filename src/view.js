@@ -10,7 +10,6 @@ window.addEventListener('load', function() {
   const popupcontent = document.querySelector('.uncommon-cta-popup-content');
   
   root.style.setProperty('--popup-height', popupcontent.offsetHeight + 'px');
-  root.style.setProperty('--popup-width', popupcontent.offsetWidth + 100 + 'px');
   
   popup.classList.add('uncommon-cta-popup--inactive');
 

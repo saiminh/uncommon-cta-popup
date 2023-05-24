@@ -18,9 +18,15 @@
   text-align: center;
   cursor: pointer;
 }
+.uncommon-cta-popup-content {
+  width: 70vw;
+
+  & > :last-child {
+    margin-bottom: 0.4rem;
+  }
+}    
 .uncommon-cta-popup--active {
   .uncommon-cta-popup-content {
-    width: var(--popup-width);
     height: var(--popup-height);
     animation: fadeIn 0.3s ease-out 0.2s both;
   }
